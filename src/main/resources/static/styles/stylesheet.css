@@ -1,0 +1,55 @@
+.calc {
+    width: 600px;
+    height: 400px;
+}
+
+.calc input {
+    width: 95%;
+    height: 60px;
+    font-size: 50px;
+}
+
+.calcBox {
+    width: 75%;
+    float: left;
+    text-align: center;
+}
+
+.actions {
+    width: 24%;
+    height: 100%;
+    float: right;
+    text-align: left;
+    border: solid 1px black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+}
+
+.actions li {
+    border-bottom: solid 1px darkgray;
+    height: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.numButtons {
+    width: 80%;
+    display: inline-block;
+}
+
+.numButtons button {
+    width: 33%;
+}
+
+button {
+    height: 35px;
+
+}
+
+.opersBlock {
+    float: right;
+    width: 20%;
+    display: grid;
+}
